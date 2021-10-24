@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="GittiGidiyor Test Automation Test Suite">
+
+    <listeners>
+        <listener class-name="com.gittigidiyorselenium.ExtentReportListener.ExtentReportListener" />
+    </listeners>
+    <test name="GittiGidiyor Test Automation">
+        <classes>
+            <class name="com.gittigidiyorselenium.testcases.TestCase1"></class>
+
+        </classes>
+    </test>
+</suite>
